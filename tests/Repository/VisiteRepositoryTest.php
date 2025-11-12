@@ -29,7 +29,7 @@ class VisiteRepositoryTest extends KernelTestCase{
     public function testNbVisites(){
         $repository = $this->recupRepository();
         $nbVisites = $repository->count([]);
-        $this->assertEquals(2, $nbVisites);
+        $this->assertEquals(7, $nbVisites);
     }
     
     public function testAddVisite(){
